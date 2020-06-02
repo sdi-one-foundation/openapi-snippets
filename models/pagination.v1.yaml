@@ -1,0 +1,16 @@
+title: pagination
+type: object
+description: A model containing pagination properties for a resource collection
+properties:
+  limit:
+    type: integer
+    minimum: 1
+    maximum: 10000
+  startCursor:
+    type: string
+    example: MUEtU291dGgG46MTk4LTlkYjYtN2E3YTEyOTRlMmNj
+    format: byte
+  endCursor:
+    type: string
+    example: M0EtU291dGgDMyZTMwLTAwMzcxMTNlZjk4NA==
+    format: byte

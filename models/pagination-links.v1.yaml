@@ -1,0 +1,16 @@
+title: paginationLinks
+type: object
+description: A model containing the "links" for resource collection pagination
+properties:
+  self:
+    type: string
+    format: uri
+  first:
+    type: string
+    format: uri
+  next:
+    type: string
+    format: uri
+  previous:
+    type: string
+    format: uri
