@@ -8,9 +8,11 @@ properties:
     maximum: 10000
   startCursor:
     type: string
+    contentEncoding: base64
+    description: The base64 encoded start cursor
     example: MUEtU291dGgG46MTk4LTlkYjYtN2E3YTEyOTRlMmNj
-    format: byte
   endCursor:
     type: string
+    contentEncoding: base64
+    description: The base64 encoded end cursor
     example: M0EtU291dGgDMyZTMwLTAwMzcxMTNlZjk4NA==
-    format: byte
