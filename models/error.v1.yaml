@@ -1,0 +1,33 @@
+title: error
+type: object
+properties:
+  id:
+    type: string
+    description: A unique identifier for this particular occurence of the problem
+  links:
+    $ref: ''
+  status:
+    type: string
+    description: HTTP status code applicable to this problem
+  code:
+    type: string
+    description: An application-specific error code
+  title:
+    type: string
+    description: Short summary of the problem
+  detail:
+    type: string
+    description: Explanation specific to this occurence of the problem
+  source:
+    type: object
+    description: Object containing references to the source of the error
+    properties:
+      pointer:
+        type: string
+        description: JSON pointer to the associated entity in the request document
+      parameter:
+        type: string
+        description: String indicating which URI query parameter caused the error
+  meta:
+    type: object
+    description: Contains non-standard meta-information about the error
