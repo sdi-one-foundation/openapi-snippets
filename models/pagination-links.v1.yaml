@@ -5,9 +5,6 @@ properties:
   self:
     type: string
     format: uri
-  first:
-    type: string
-    format: uri
   next:
     type: string
     format: uri
