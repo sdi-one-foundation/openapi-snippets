@@ -1,0 +1,17 @@
+"framework": "n/a"
+"language": "terraform"
+"lifecycle": "generally_available"
+"owner": "sdi-one-foundation"
+"repositories":
+  "display_name": "openapi-snippets"
+  "name": "sdi-one-foundation/openapi-snippets"
+  "path": "/"
+  "provider": "github"
+"serivce":
+  "aliases":
+  - "N/A"
+  "description": "Various OpenAPI snippets for use throughout spec files."
+  "name": "openapi-snippets"
+  "product": "foundation"
+"tier": "tier_3"
+"version": 1
