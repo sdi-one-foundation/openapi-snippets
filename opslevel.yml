@@ -6,7 +6,7 @@
   "provider": "github"
 "service":
   "aliases":
-  - "N/A"
+  - "openapi-snippets"
   "description": "Various OpenAPI snippets for use throughout spec files."
   "framework": "n/a"
   "language": "terraform"
@@ -14,5 +14,14 @@
   "name": "openapi-snippets"
   "owner": "sdi-one-foundation"
   "product": "foundation"
+  "tags":
+  - "key": "Name"
+    "value": "openapi-snippets"
+  - "key": "Team"
+    "value": "sdi-one-foundation"
+  - "key": "ServiceType"
+    "value": "other"
+  - "key": "Product"
+    "value": "foundation"
   "tier": "tier_3"
 "version": 1
